@@ -18,7 +18,7 @@ rl.question('What is your name? Nicknames are also acceptable :) ', (answer) => 
         rl.question('What is your favorite thing to eat for that meal? ', (answer) => {
           paragraph += `My favorite thing to eat for that meal is ${answer} \n`;
           rl.question('What sport is your absolute favorite? ', (answer) => {
-            paragraph += `My absolute favorite sport is ${answer} \n `;
+            paragraph += `My absolute favorite sport is ${answer} \n`;
             rl.question('What is your superpower? In a few words, tell us what you are amazing at! ', (answer) => {
               paragraph += `My super power is ${answer} \n`;
               console.log(paragraph);
